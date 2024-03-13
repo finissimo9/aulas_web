@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <link rel="stylesheet" href="C:\Users\Windows\Desktop\curso_web-main\imgsvv\aula_js.css" type="text/css">
+        <meta charset="utf-8">
+        <title>functions js</title>
+        <script>
+            
+            function soma(){//declaração da função
+                var n1= parseInt(prompt("digite um valor:"));
+                var n2= parseInt (prompt("dg otro numero:"));
+                var soma= n1+n2;
+                document.write("<h1>" + soma + "</h1>")
+            }
+
+            function subtração(){//declaração da função
+                var n1= parseInt(prompt("digite um valor:"));
+                var n2= parseInt (prompt("dg otro numero:"));
+                document.write (n1-n2);//oq a função ierá fazer
+            }
+
+            function divisão(){//declaração da função
+                var n1= parseInt(prompt("digite um valor:"));
+                var n2= parseInt (prompt("dg otro numero:"));
+                document.write (n1/n2);//oq a função ierá fazer
+            }
+
+            function multiplicação(){//declaração da função
+                var n1= parseInt(prompt("digite um valor:"));
+                var n2= parseInt (prompt("dg otro numero:"));
+                document.write ("<h1>teste</h1>");//oq a função ierá fazer
+            }
+
+            function escreva(){//declaração da função
+                
+                document.write ("<h1>teste</h1>");//oq a função ierá fazer
+            }
+            
+            //soma()//chama a func
+
+            const name= document.querySelector(".name")// paramos aqui
+
+            function mudarcor(){
+                var n = prompt();
+                alert (n)       
+
+            }
+
+        </script>
+
+    </head>
+
+    <body>
+        <div>
+            <h1 clas="name">titulo</h1>
+            <button onclick="mudarcor"> color </button>
+            <button onclick="soma()" >aperte</button>
+            <button onclick="subtração()" >charizard</button>
+            <button onclick="divisão()" >blastoise</button>
+            <button onclick="multiplicação()" >venessuar</button>
+
+            <button onclick="escreva()" >escreva</button>
+            <input type="checkbox">
+            <input type="time">
+        </div>
+
+    </body>
+
+</html>
